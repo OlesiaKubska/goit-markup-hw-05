@@ -123,6 +123,18 @@ body {
   font-weight: 500;
 }
 
+.header-link-after a::after {
+  text-decoration: underline;
+  position: absolute;
+  display: block;
+  width: 48px;
+  height: 4px;
+  left: 0px;
+  top: 48px;
+  background: var(--accent-text-color);
+  border-radius: 2px;
+} 
+
 .contacts-address {
   font-style: normal;
 }
