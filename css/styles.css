@@ -123,14 +123,18 @@ body {
   font-weight: 500;
 }
 
-.header-link-after a::after {
+.header-link-after {
+  position: relative;
+}
+
+.header-link-after::after {
+  content: "";
   text-decoration: underline;
   position: absolute;
   display: block;
-  width: 48px;
+  margin-top: 22px;
+  width: 100%;
   height: 4px;
-  left: 0px;
-  top: 48px;
   background: var(--accent-text-color);
   border-radius: 2px;
 } 
